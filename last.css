@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img,
+picture{
+  display: block;
+  border-radius: 6px;
+  width: 100%;
+}
+.left-item-sale-compliant-base{
+  display: grid;
+  gap: 1em;
+  background-color: rgb(219, 245, 254);
+  padding: 1em;
+}
+.gate-man{
+  gap: 1em;
+  margin-top: 2em;
+  display: grid;
+
+}
+.en{
+  background-color: white;
+  border-radius: 6px;
+  padding: .3em;
+  box-shadow: 0px 3px 4px black;
+}
+.big-inner-locus{
+  background-color: lightseagreen;
+  border-radius: 6px;
+}
+.gold{
+  background-color: white;
+  border-radius: 6px;
+  padding: .3em;
+  box-shadow: 0px 3px 4px lightgrey;
+}
+.javan-the-tiger{
+  padding: 3em;
+}
+.broun-gat{
+  aspect-ratio: 1/1.2;
+}
+.gallery-van-bas{
+  background-color: black;
+  border: none;
+  padding: .3em .6em;
+  height: 35px;
+  margin-bottom: 1em;
+  border-radius: 6px;
+  transition: all 400ms ease-in-out;
+}
+.gallery-van-bas:hover{
+  transform: scale(1.02);
+}
+.galley-van{
+ font-weight: bold;
+ color: white;
+ text-decoration: none;
+}
+@media (min-width:950px) {
+  .left-item-sale-compliant-base{
+    grid-template-columns: 20em 1fr 15em;
+  }
+  .gate-man{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+body{
+ margin-top: 75px;
+}
+.fixed-content{
+  position: absolute;right: 150px; top: 2px;background-color: lightslategray; height: 50px; display: flex;align-items: center;justify-content: center; padding: 1em;border-radius: 50%;width: 50px;box-shadow: 0px 2px 3px;
+  z-index: -33;
+}
+@media  (max-width:500px) {
+  .fixed-content{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+}
+.buttoon-signhn-up{
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 33;
+}
+.button-diffrent-sinup{
+  height: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: .3em .6em;
+  background-color: rgb(65, 12, 80);
+  border: none;
+  border-radius: 6px;
+  transition: all 300ms ease-in-out;
+}
+.button-diffrent-sinup:hover{
+ transform: scale(1.2);
+}
+.button-diffrent-sinup:active{
+  background-color: rgb(98, 68, 128);
+}
+.dif{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media (max-width:900px) {
+  .base-head-ifor-gat{
+    display: none;
+  }
+  
+}

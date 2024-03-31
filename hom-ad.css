@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+.banner-collection{
+  display: grid; 
+  grid-auto-rows: 25em;
+  gap: 1rem;
+}
+.collection-item{
+  border-radius: 6px;
+  box-shadow: -.2px .3px 4px black;
+}
+.banner-container-holder{
+  padding: 3em;
+}
+.banner-ad-item-representer{
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.collection-item-img-description-holder{
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.item-iportant-banner-ad-luk{
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.609);
+  border-radius: 0px 0px 6px 6px;
+  color: whitesmoke;
+  top: -9em;
+}
+.t-item-name{
+  padding: 0px;
+  margin: 2px;
+  text-align: center;
+}
+.info{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.link-destination{
+  height: 40px;
+  background-color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+
+}
+.link-destination-locator{
+  text-decoration: none;
+  color: white;
+}
+.collection-item-picture{
+  height: 65%;
+}
+@media (min-width:900px){
+  .banner-collection{
+  grid-template-columns: repeat(auto-fit,minmax(min(20em,100%),1fr));
+  
+}
+.the-item-spaning-card{
+grid-column: span 2;
+}
+.vs-bigger{
+  top: -5.5em;
+}
+.item-iportant-banner-ad-luk{
+  top: -6.8em;
+}
+}

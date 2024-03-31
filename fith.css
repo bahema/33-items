@@ -1,0 +1,46 @@
+body{
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+}
+img,
+picture{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.last-web-part{
+  display: grid;
+  gap: 1em;
+  padding: 4rem;
+}
+.igon-base-holder{
+  display: grid;
+  gap: 1em;
+}
+.vast-desighn{
+ margin-top: 0px;
+ padding-top: 0px;
+}
+.container-twodiv{
+  display: grid;
+  gap: .5em;
+}
+.igon-base-holder>*{
+  vertical-align: top;
+}
+.container-bold-faced{
+  margin-top: 3em;
+  background-color: linen;
+}
+@media (min-width:900px) {
+  .last-web-part{
+    grid-template-columns: 3fr 1fr;
+  }
+  .igon-base-holder{
+    grid-template-columns: 1fr 3fr;
+  }
+  
+}
+
